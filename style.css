@@ -1,18 +1,28 @@
-<style>
     div {
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
+       margin-top: .5%;
+       border: 0%;
+     
     }
 
     body {
         background-color: darkturquoise;
+        margin: 0px 300px 0px 300px;
     }
 
-img {
-    margin-left: 30%;
-    margin-right: 30%;
-    height: 500px;
-    widows: 500px;
-}
-</style>
+    img {
+        height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: .5%;
+        }
+
+    .center_text {
+        display: flex; justify-content: center;
+    }
+
+    .footer {
+        background-color: beige;
+        margin: 0px 400px 0px 400px;
+    }

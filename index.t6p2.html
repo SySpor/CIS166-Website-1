@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website's Fade Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="center_text">My Websites Final Draft!</div>
+    <div>
+        <div style="background-color: khaki;">
+            <div class="center_text">This is a sub-div</div> <img id="bannerImage" src="Bowling.jpg" alt="Bowling">
+            <button onclick="func1()"> FADE-IN/OUT</button>
+        </div>
+
+
+        <div class="center_text">
+            <button onclick=" changeImage('Bowling.jpg')">Bowling</button>
+            <button onclick="changeImage('Control.jpg')">Control</button>
+            <button onclick="changeImage('Kitten.jpg')">Kitten</button>
+            <button onclick="changeImage('Lonely.jpg')">Lonely</button>
+            <button onclick="changeImage('Moon.jpg')">Moon</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="center_text">Footer</div>
+        <hr>
+        <div>
+            <div class="center_text"><a href="index.html">First Page</a></div>
+            <div class="center_text"><a href="form.html">Form Page</a></div>
+        </div>
+    </div>
+    <script src="JQuery/jquery.js" type="text/javascript"></script>
+    <script>
+        function changeImage(fileName) {
+            let img = document.querySelector("#bannerImage");
+            img.setAttribute("src", fileName);
+        }
+    </script>
+    <script src="JQ.js" type="text/javascript"></script>
+</body>
+
+</html>
